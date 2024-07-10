@@ -1,7 +1,59 @@
 /* banner styles */
-.banner title{
-    font-weight:800 ;
+.banner-title{
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 800;
+}
+.banner-pic{
+    width: 173.03px;
+    height:228.9px;
+    left: 243.4%;
+    right: -215.41%;
+    top: 0%;
+    bottom: 4.63%;
+
+
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    background-color: black;
+    padding: 21px;
+    color: aliceblue;
+    text-align: center;
     
+    flex-direction: row;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 208px;
+    height: 66px;
+    cursor: pointer;
+
+}
+.banner-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner-content{
+    width: ;
+}
+.background-img{
+
+    position: absolute;
+
+    width: 1440px;
+height: 652px;
+left: 0;
+right: 0;
+top: 131px;
+bottom: 4462px;
 }
