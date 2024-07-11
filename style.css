@@ -127,7 +127,7 @@ bottom: 4462px;
     margin-top: 20px;
     padding: 80px 97px;
     text-align: center;
-    background-color: #adc8f7;
+    background-color: #e7e7e7;
     margin-top: 80px;
 
 }
@@ -141,19 +141,12 @@ bottom: 4462px;
 .about-items{
     display: flex;
 }
-/* .div1-img{
-    
-position: absolute;
-width: 259.56px;
-height: 217.01px;
-left: 0.36%;
-right: -0.36%;
-top: 1.74%;
-bottom: -1.74%;
-} */
+
  .text-container{
     width: 50%;
  }
+
+
 .heading{
     Font: Azeret Mono
 Font weight: 800
@@ -201,3 +194,16 @@ text-align: center;
     align-items: center;
     padding: 50px;
 }
+/* 
+ */
+ .second-part{
+    display: flex;
+    display direction: row;
+    
+ }
+ .img-section{
+    border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+
+ }
