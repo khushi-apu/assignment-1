@@ -1,3 +1,15 @@
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  margin: 24px 0px;  
+}
+
+
+
 /* banner styles */
 .banner-title{
     font-size: 48px;
@@ -8,8 +20,9 @@
     height:228.9px;
     left: 243.4%;
     right: -215.41%;
-    top: 0%;
+    top: 25;
     bottom: 4.63%;
+    
 
 
 }
@@ -23,7 +36,7 @@
     background-color: black;
     padding: 21px;
     color: aliceblue;
-    text-align: center;
+    text-align:center;
     
     flex-direction: row;
     font-size: 15px;
@@ -31,16 +44,37 @@
     width: 208px;
     height: 66px;
     cursor: pointer;
+    position: static;
 
 }
 .banner-description{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: center;
+    position: static;
+    width:800px;
+    height:600px;
+    
+position: static;
+width: 852px;
+height: 52px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
 }
 
 .banner-content{
@@ -48,12 +82,63 @@
 }
 .background-img{
 
+background: url('Hero-bg.png');
     position: absolute;
 
-    width: 1440px;
-height: 652px;
+    
+
 left: 0;
 right: 0;
 top: 131px;
 bottom: 4462px;
+}
+.header-one{
+    
+    background: url('Hero-bg.png');
+    position: absolute;
+width: 1920px;
+height: 700px;
+left: 0;
+right: 20;
+top: 5px;
+bottom: 4462px;
+
+}
+.section-title{
+    font-size:32px ;
+    font-weight:800 ;
+    color: black;
+    margin-top: 160px;
+    
+
+}
+.section-description{
+    font-size:16px ;
+    color:rgb(13, 19, 33) ;
+    font-weight: 400;
+    row height: 26px;
+}
+.about{
+    border-radius: 10;
+}
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 80px 97px;
+    text-align: center;
+    background-color: #adc8f7;
+    margin-top: 80px;
+
+}
+.secoondary-bg{
+    background-color: rgba(13, 19, 33, 0.02);
+}
+.item-description{
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+}
+.about-items{
+    display: flex;
 }
