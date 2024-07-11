@@ -1,8 +1,8 @@
 
-.azeret-mono-normal {
+.azeret-mono-normal{
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: 900px;
   font-style: normal;
   text-align: center;
   margin: 24px 0px;  
@@ -13,7 +13,7 @@
 /* banner styles */
 .banner-title{
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 400;
 }
 .banner-pic{
     width: 173.03px;
@@ -84,18 +84,17 @@ text-align: center;
 
 background: url('Hero-bg.png');
     position: absolute;
-
-    
-
 left: 0;
 right: 0;
 top: 131px;
 bottom: 4462px;
 }
+
+
 .header-one{
     
     background: url('Hero-bg.png');
-    position: absolute;
+     position: absolute;
 width: 1920px;
 height: 700px;
 left: 0;
@@ -108,7 +107,7 @@ bottom: 4462px;
     font-size:32px ;
     font-weight:800 ;
     color: black;
-    margin-top: 160px;
+    margin-top: 50px;
     
 
 }
@@ -141,4 +140,64 @@ bottom: 4462px;
 }
 .about-items{
     display: flex;
+}
+/* .div1-img{
+    
+position: absolute;
+width: 259.56px;
+height: 217.01px;
+left: 0.36%;
+right: -0.36%;
+top: 1.74%;
+bottom: -1.74%;
+} */
+ .text-container{
+    width: 50%;
+ }
+.heading{
+    Font: Azeret Mono
+Font weight: 800
+Font size: 32pxpx
+Row height: 37px
+Letter spacing: 0%
+Align: Align center
+    color:  rgb(13, 19, 33)
+}
+.youtube-video{
+margin-top: 80px;
+}
+.youtube-video{
+    margin-top: 80px;
+}
+.video-header{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 100px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+/* skill section style */
+
+.skils-container{
+    display: flex;
+    position: static;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50x 0px ;
+    box-sizing: border-box;
+    
+}
+
+.skill-description{
+    padding: 60px;
+}
+.about-third-bg{
+    display: flex;
+    align-items: center;
+    padding: 50px;
 }
